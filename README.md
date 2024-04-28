@@ -1,12 +1,24 @@
-This applications recommends or suggest the car based on the users behaviour. 
-First it ask the 5 questions which helps to recommend the which type of car user love.
+# Car Recommendation App
 
+This application recommends or suggests cars based on user behavior. It begins by asking 5 questions to help determine which type of car best suits the user's preferences.
 
-Install the requirements.txt file using
-#pip install -r requirements.txt 
+## Installation
 
-Run the app.py file 
-uvicorn app:app -r reload
+To install the required dependencies, use the following command:
 
-You can find the applications running on the web api
+```bash
+pip install -r requirements.txt
+```
+
+## Running the applications
+```bash
+uvicorn app:app --reload
+```
+
+## Accessing the Application
+After starting the application, you can access the API documentation using this URL:
+
 http://127.0.0.1:8000/docs
+
+
+Ensure you can add the openai api key
