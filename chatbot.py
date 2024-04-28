@@ -15,7 +15,7 @@ from langchain.memory import ConversationBufferMemory
 
 
 import os
-os.environ['OPENAI_API_KEY'] = "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"
+os.environ['OPENAI_API_KEY'] = "Open_ai_api_key"
 
 
 # Data Loading
